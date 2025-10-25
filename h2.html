@@ -1,0 +1,41 @@
+<form action="#">
+    <fieldset class="personaldata">
+    <legend>個人資料</legend>
+    <label>姓名:<input type="text" name="name"/></label>
+    <br />
+    <label>性別:
+    <input id="male" type="radio" name="sex" value="m" />
+    <label for="male">男</label>
+    <input id="female" type="radio" name="sex" value="f" />
+    <label for="female">女</label>
+    </label>
+    <br />
+    <label>出生日期:<input type="date" name="birthday"/></label>
+    <br />
+    <label>居住地區:
+    <select name="domicile">
+    <option value="0" selected>居住地</option>
+    <option value="Taipei">北北基宜</option>
+    <option value="Taoyuan">桃竹苗</option>
+    <option value="Taichung">中彰投</option>
+    <option value="Yunlin">雲嘉南</option>
+    <option value="Kaohsiung">高屏</option>
+    <option value="Hualien">花東</option>
+    <option value="Penghu">澎金馬</option>
+    </select>
+    </label>
+    <br />
+    <label>電子郵件:<input type="email" name="email" />
+    <br />
+    <label>履歷:<input type="file" name="Resume" /></label>
+    <br />
+    
+    3
+    <label for="profile">個人簡介:</label>
+    <br />
+    <textarea id="profile" class="profile" name="personal-profile" plac
+    eholder="請自我介紹,最少 30 字以上"></textarea>
+    <br />
+    <input type="submit" value="送出" />
+    </fieldset>
+    </form>
